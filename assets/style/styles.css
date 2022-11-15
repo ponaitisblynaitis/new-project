@@ -174,33 +174,16 @@ input[type=submit]:hover {
     color: black
 }
 
-.block{
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #283326;
+    top: 0;
+    left: 0;
+}
+
+.meniu{
     max-width: 700px;
-    height: 400px;
-    border: 2px solid red;
+    height: 100vh;
     margin: 0 auto;
-    font-weight: bold;
-   
-}
-
-.block div{
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-}
-
-.block1{
-    background-color: #7fa046;
-}
-
-.block2{
-    background-color: #737373;
-    position: absolute;
-    top: 20px;
-    left: 70px;
-    width: 30px;
-}
-
-.block3{
-    background-color: #b3b3b3;
 }
